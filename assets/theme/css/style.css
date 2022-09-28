@@ -898,8 +898,8 @@ blockquote {
 }
 @media (min-width: 768px) {
   .container-fluid {
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
