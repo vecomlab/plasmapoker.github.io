@@ -1,6 +1,6 @@
 @charset "UTF-8";
 section {
-  background-color: #1b1918;
+  background-color: #1A1918;
 }
 
 body {
@@ -883,35 +883,35 @@ blockquote {
 
 @media (min-width: 992px) {
   .container {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .row {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: -16px;
+    margin-right: -16px;
   }
   .row > [class*=col] {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 @media (min-width: 768px) {
   .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .mbr-container {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 @media (max-width: 767px) {
   .mbr-container {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 .card-wrapper,
